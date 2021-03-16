@@ -1,0 +1,34 @@
+.cke_editable .sr-only,
+.cke_editable .invisible,
+.cke_editable .d-none {
+	background-size: contain;
+	background-repeat: space;
+	background-position: center;
+}
+
+.cke_editable .sr-only {
+	height: unset !important;
+	width: unset !important;
+	position: unset !important;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='30px' width='100px'><text x='0' y='20' opacity='0.1'>.sr-only</text></svg>");
+}
+
+.cke_editable .invisible {
+	visibility: unset !important;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='30px' width='100px'><text x='0' y='20' opacity='0.1'>.invisible</text></svg>");
+}
+
+.cke_editable .d-none {
+	display: inherit !important;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='30px' width='100px'><text x='0' y='20' opacity='0.1'>.d-none</text></svg>");
+}
+
+.cke_editable .embed-responsive {
+	border: 1px dashed gray;
+}
+
+.cke_editable img.embed-responsive-item {
+	width: 100% !important;
+	height: 100% !important;
+}
+
